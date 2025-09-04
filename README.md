@@ -52,21 +52,20 @@ Node.js Crypto
 
 📂 Project Structure
 
-local-password-vault/
-│
-├── package.json          # Project config (dependencies, scripts)
-├── main.js               # Electron main process (creates the window)
-├── index.html            # UI layout (inputs, buttons, display area)
-│
-├── src/                  # App logic and assets
-│   ├── renderer.js       # Renderer process (handles UI events)
-│   ├── crypto.js         # Encryption/decryption helpers
-│   ├── storage.js        # File handling (read/write vault data)
-│   └── styles.css        # CSS for UI styling
-│
-├── vault/                # Local data storage
-│   └── vault.json        # Encrypted passwords saved here
-│
-└── assets/               # Icons, images (optional)
-    └── icon.png
+local-password-vault/ (root)
+package.json          # Project config (dependencies, scripts)
+main.js               # Electron main process (creates the window)
+index.html            # UI layout (inputs, buttons, display area)
+
+src/                  # App logic and assets
+ renderer.js       # Renderer process (handles UI events)
+ crypto.js         # Encryption/decryption helpers
+ storage.js        # File handling (read/write vault data)
+ styles.css        # CSS for UI styling
+
+vault/                # Local data storage
+ vault.json        # Encrypted passwords saved here
+
+assets/               # Icons, images (optional)
+ icon.png
 
