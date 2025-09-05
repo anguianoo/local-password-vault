@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=""UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Seciurity-Policy"
+      content="default-src 'self' script-src 'self'"
+    />
+    <title>Save your damn passwords</title>
+  </head>
+  <body>
+    <input
+      type="text"
+      id="website"
+      placeholder="Enter The Website or app name"
+    />
+    <input type="text" id="account-name" placeholder="Enter your Username" />
+    <input type="text" id="password" placeholder="Enter your password" />
+    <button id="save">Save Password</button>
+    <button id="get">Get Passwords</button>
+    <button id="delete">Delete a Password</button>
+    <!-- <p id="info"></p> -->
+  </body>
+  <script src="./renderer.js"></script>
+</html>

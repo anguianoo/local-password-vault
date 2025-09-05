@@ -1,0 +1,30 @@
+# Node/Electron
+node_modules/
+dist/
+build/
+out/
+.electron-builder/
+electron-out/
+release/
+*.asar
+
+# Installers / binaries
+*.exe
+*.msi
+*.dmg
+*.pkg
+*.AppImage
+*.snap
+*.deb
+*.rpm
+*.zip
+*.tar.gz
+
+# Env & misc
+.env*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+logs/
+*.log
